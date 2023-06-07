@@ -1,0 +1,42 @@
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: #336666;
+}
+
+.center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 150px;
+}
+
+button {
+  width: 70px;
+  padding: 6px 6px;
+  border: 0;
+  box-shadow: 2px 2px gray;
+  border-radius: 10%;
+}
+
+a {
+  color: inherit;
+  text-transform: uppercase;
+}
